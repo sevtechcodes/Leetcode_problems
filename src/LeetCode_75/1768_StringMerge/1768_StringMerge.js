@@ -61,3 +61,5 @@ function mergeAlternately(word1, word2) {
 console.log(mergeAlternately("abc", "pqr"));    // Output: "apbqcr"
 console.log(mergeAlternately("ab", "pqrs"));    // Output: "apbqrs"
 console.log(mergeAlternately("abcd", "pq"));    // Output: "apbqcd"
+
+export default mergeAlternately;
