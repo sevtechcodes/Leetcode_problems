@@ -11,5 +11,12 @@ describe('mergeAlternately', ()=>{
 		expect(result).to.equal("apbqcr");
 	});
 
+	it('Should merge alternately', ()=>{
+		const word1 = "ab";
+		const word2 = "pqrs";
+		const result = mergeAlternately(word1, word2);
+		expect(result).to.equal("apbqrs");
+	});
+
 
 })
